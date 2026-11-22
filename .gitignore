@@ -1,0 +1,41 @@
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js / React
+node_modules/
+dist/
+coverage/
+
+# .NET
+**/bin/
+**/obj/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+secrets/
+*.pem
+*.key
