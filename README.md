@@ -56,3 +56,22 @@ cảm biến thông qua các dịch vụ giao tiếp qua mạng.
 ## 6. Trạng thái
 
 Dự án đang trong quá trình phát triển.
+
+## Tiến độ phát triển
+
+### Tuần 1 - Khởi tạo dự án
+- Khởi tạo Git và GitHub.
+- Tạo cấu trúc thư mục.
+- Viết tài liệu README.
+
+### Tuần 2 - Kiến trúc và hạ tầng
+- Thiết kế hệ thống phân tán.
+- Thiết kế PostgreSQL.
+- Triển khai PostgreSQL và RabbitMQ bằng Docker.
+- Kiểm thử hàng đợi sensor.readings.
+- Khởi tạo ASP.NET Core Sensor API.
+
+### Tuần 3 - Sensor API và IoT Simulator
+- Xây dựng các REST API.
+- Kết nối PostgreSQL và RabbitMQ.
+- Giả lập nhiều cảm biến bằng Python.
